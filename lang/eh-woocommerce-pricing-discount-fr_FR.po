@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Catalog Mode, Wholesale & Role Based Pricing "
+"(BASIC)\n"
+"POT-Creation-Date: 2017-09-29 09:16+0530\n"
+"PO-Revision-Date: 2017-09-29 15:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: pricing-discounts-by-user-role-woocommerce.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: eh-includes/eh-functions.php:133
+#, php-format
+msgctxt "Price range: from-to"
+msgid "%1$s &ndash; %2$s"
+msgstr ""
+
+#: includes/class-eh-price-discount-admin.php:546
+#, php-format
+msgctxt "Price range: from-to"
+msgid "%1$s&ndash;%2$s"
+msgstr ""
+
+#: includes/class-eh-price-discount-admin.php:550
+msgid "Free!"
+msgstr "Gratuit !"
+
+#: includes/class-eh-price-discount-settings.php:38
+#: includes/class-eh-price-discount-settings.php:512
+msgid "Role Based Pricing"
+msgstr "Prix ​​basés sur les rôles"
+
+#: includes/class-eh-price-discount-settings.php:39
+msgid "Unregistered User"
+msgstr "Utilisateur non enregistré"
+
+#: includes/class-eh-price-discount-settings.php:40
+msgid "Catalog Mode"
+msgstr "Mode Catalogue"
+
+#: includes/class-eh-price-discount-settings.php:41
+msgid "Tax Option"
+msgstr "Option fiscale :"
+
+#: includes/class-eh-price-discount-settings.php:42
+msgid "Manage User Role"
+msgstr "Gérer les utilisateurs"
+
+#: includes/class-eh-price-discount-settings.php:43
+msgid ""
+"<li><strong><font color=\"red\">Go Premium!</font></strong>(Supports "
+"Variable &amp; Grouped Products)</li>"
+msgstr ""
+"<li> <strong><font color=\"red\">Passer en Premium!</font></strong> (Prend "
+"en charge les produits variables et groupés) </li>"
+
+#: includes/class-eh-price-discount-settings.php:67
+msgid "Pricing and Discount"
+msgstr "Prix ​​et réduction"
+
+#: includes/class-eh-price-discount-settings.php:155
+msgid "Please select atleast one role to delete"
+msgstr "Sélectionnez au moins un rôle à supprimer"
+
+#: includes/class-eh-price-discount-settings.php:170
+msgid "User Role created successfully"
+msgstr "Rôle utilisateur créé avec succès"
+
+#: includes/class-eh-price-discount-settings.php:173
+msgid "User Role creation failed"
+msgstr "La création du rôle utilisateur a échoué"
+
+#: includes/class-eh-price-discount-settings.php:186
+msgid "User Role deleted successfully"
+msgstr "Rôle supprimé avec succès"
+
+#: includes/class-eh-price-discount-settings.php:208
+msgid "General and Tax Options:"
+msgstr "Options générales et fiscales:"
+
+#: includes/class-eh-price-discount-settings.php:214
+msgid "Enable Tax Options"
+msgstr "Activer les options fiscales"
+
+#: includes/class-eh-price-discount-settings.php:216
+#: includes/class-eh-price-discount-settings.php:268
+#: includes/class-eh-price-discount-settings.php:293
+#: includes/class-eh-price-discount-settings.php:309
+#: includes/class-eh-price-discount-settings.php:341
+#: includes/class-eh-price-discount-settings.php:349
+#: includes/html-eh-product-price-adjustment.php:22
+#: includes/html-eh-product-price-adjustment.php:32
+msgid "Enable"
+msgstr "Activer"
+
+#: includes/class-eh-price-discount-settings.php:219
+msgid "Check to enable Role specific tax options."
+msgstr "Vérifiez pour activer le rôle des options fiscales spécifiques."
+
+#: includes/class-eh-price-discount-settings.php:226
+msgid "Price Suffix"
+msgstr "Unité monétaire (Suffixe)"
+
+#: includes/class-eh-price-discount-settings.php:228
+msgid ""
+"Select the price suffix option you want to have. Choose General to apply "
+"globally. Choose Role specific to set different suffixes to different Roles."
+msgstr ""
+"Sélectionnez l'option de suffixe de prix que vous souhaitez avoir. "
+"Choisissez Général pour appliquer globalement. Choisissez Rôle spécifique "
+"pour définir différents suffixes à différents rôles."
+
+#: includes/class-eh-price-discount-settings.php:235
+#: includes/html-eh-price-suffix.php:9
+msgid "Suffix Text"
+msgstr "Texte de suffixe :"
+
+#: includes/class-eh-price-discount-settings.php:237
+msgid "Enter the text you want to suffix with the price."
+msgstr "Entrez le texte que vous voulez suffixe avec le prix."
+
+#: includes/class-eh-price-discount-settings.php:260
+msgid "Catalog Mode Option:"
+msgstr "Option de mode catalogue:"
+
+#: includes/class-eh-price-discount-settings.php:266
+msgid "One Click Catalog Mode"
+msgstr "Mode de catalogue à un clic"
+
+#: includes/class-eh-price-discount-settings.php:271
+msgid ""
+"Check to globally hide the price and disable Add to Cart button on Shop and "
+"Product page. To know more "
+msgstr ""
+"Vérifiez globalement cacher le prix et désactivez le bouton Ajouter au "
+"panier sur la page Shop and Product. En savoir plus"
+
+#: includes/class-eh-price-discount-settings.php:271
+msgid "click here"
+msgstr "cliquez ici"
+
+#: includes/class-eh-price-discount-settings.php:271
+msgid "."
+msgstr "."
+
+#: includes/class-eh-price-discount-settings.php:285
+msgid "Unregistered User Options:"
+msgstr "Options utilisateur non enregistrées:"
+
+#: includes/class-eh-price-discount-settings.php:291
+#: includes/class-eh-price-discount-settings.php:387
+#: includes/html-eh-product-price-adjustment.php:19
+msgid "Remove Add to Cart"
+msgstr "Supprimer Ajouter au panier"
+
+#: includes/class-eh-price-discount-settings.php:296
+msgid "Check to remove Add to Cart option."
+msgstr "Vérifiez pour supprimer l'option Ajouter au panier."
+
+#: includes/class-eh-price-discount-settings.php:299
+#: includes/class-eh-price-discount-settings.php:355
+#: includes/class-eh-price-discount-settings.php:396
+#: includes/class-eh-price-discount-settings.php:455
+msgid "Placeholder Text"
+msgstr "Espace réservé de texte"
+
+#: includes/class-eh-price-discount-settings.php:301
+msgid ""
+"Enter the text you want to show when Add to Cart option is removed. Leave it "
+"empty if you don't want to show any placeholder text."
+msgstr ""
+"Entrez le texte que vous souhaitez afficher lorsque l'option Ajouter au "
+"panier est supprimée. Laissez-le vide si vous ne souhaitez pas afficher le "
+"texte d'un espace réservé."
+
+#: includes/class-eh-price-discount-settings.php:307
+#: includes/class-eh-price-discount-settings.php:404
+msgid "Replace Add to Cart"
+msgstr "Remplacer Ajouter au panier"
+
+#: includes/class-eh-price-discount-settings.php:312
+msgid "Check to replace Add to Cart."
+msgstr "Vérifier de remplacer Ajouter au panier."
+
+#: includes/class-eh-price-discount-settings.php:315
+#: includes/class-eh-price-discount-settings.php:413
+msgid "Replace Button Text(Product Page)"
+msgstr "Remplacer le texte du bouton (page de produit)"
+
+#: includes/class-eh-price-discount-settings.php:317
+#: includes/class-eh-price-discount-settings.php:415
+msgid ""
+"Enter the replace button text for Add to Cart in product page. Button "
+"functionality will remain same."
+msgstr ""
+"Entrez le bouton du bouton de remplacement pour Ajouter au panier dans la "
+"page du produit. La fonctionnalité des boutons restera identique."
+
+#: includes/class-eh-price-discount-settings.php:323
+#: includes/class-eh-price-discount-settings.php:421
+msgid "Replace Button Text(Shop Page)"
+msgstr "Remplacer le texte du bouton (Shop Page)"
+
+#: includes/class-eh-price-discount-settings.php:325
+#: includes/class-eh-price-discount-settings.php:423
+msgid "Enter the replace button text for Add to Cart in shop page."
+msgstr ""
+"Entrez le texte du bouton de remplacement pour Ajouter au panier en magasin."
+
+#: includes/class-eh-price-discount-settings.php:331
+#: includes/class-eh-price-discount-settings.php:429
+msgid "Replace URL(Shop Page)"
+msgstr "Remplacer URL (Shop Page)"
+
+#: includes/class-eh-price-discount-settings.php:333
+msgid ""
+"Enter the replace URL for Add to Cart button in shop page. If it is empty "
+"then Add to Cart text will be replaced only. Button functionality will "
+"remain same."
+msgstr ""
+"Entrez l'URL de remplacement pour le bouton Ajouter au panier dans la page "
+"boutique. Si elle est vide, puis Ajouter au panier, le texte sera remplacé "
+"uniquement. La fonctionnalité des boutons restera identique."
+
+#: includes/class-eh-price-discount-settings.php:339
+#: includes/class-eh-price-discount-settings.php:437
+#: includes/class-eh-price-discount-settings.php:522
+msgid "Hide Regular Price"
+msgstr "Prix normal"
+
+#: includes/class-eh-price-discount-settings.php:344
+msgid ""
+"Check this to hide regular price when sale price is given for simple "
+"products."
+msgstr ""
+"Vérifiez ceci pour cacher un prix régulier lorsque le prix de vente est "
+"donné pour des produits simples."
+
+#: includes/class-eh-price-discount-settings.php:347
+#: includes/class-eh-price-discount-settings.php:446
+#: includes/html-eh-product-price-adjustment.php:29
+msgid "Hide Price"
+msgstr "Cacher le prix"
+
+#: includes/class-eh-price-discount-settings.php:352
+msgid "Check to hide product price. This will also remove Add to Cart button."
+msgstr ""
+"Vérifiez pour masquer le prix du produit. Cela supprimera également le "
+"bouton Ajouter au panier."
+
+#: includes/class-eh-price-discount-settings.php:357
+msgid ""
+"Enter the text you want to show when price is removed. Leave it empty if you "
+"don't want to show any placeholder text."
+msgstr ""
+"Entrez le texte que vous souhaitez afficher lorsque le prix est supprimé. "
+"Laissez-le vide si vous ne souhaitez pas afficher le texte d'un espace "
+"réservé."
+
+#: includes/class-eh-price-discount-settings.php:381
+msgid "User Role Specific Options:"
+msgstr "Options spécifiques du rôle de l'utilisateur:"
+
+#: includes/class-eh-price-discount-settings.php:389
+msgid "Select the User Role for which you want to hide Add to Cart option."
+msgstr ""
+"Sélectionnez le rôle d'utilisateur pour lequel vous souhaitez masquer "
+"l'option Ajouter au panier."
+
+#: includes/class-eh-price-discount-settings.php:398
+msgid ""
+"Enter the text you want to show when Add to Cart is removed. Leave it empty "
+"if you don't want to show any placeholder text"
+msgstr ""
+"Entrez le texte que vous souhaitez afficher lorsque Ajouter au panier est "
+"supprimé. Laissez-le vide si vous ne souhaitez pas afficher le texte d'un "
+"espace réservé"
+
+#: includes/class-eh-price-discount-settings.php:406
+msgid "Select the User Role for which you want to replace Add to Cart."
+msgstr ""
+"Sélectionnez le rôle d'utilisateur pour lequel vous souhaitez remplacer "
+"Ajouter au panier."
+
+#: includes/class-eh-price-discount-settings.php:431
+msgid ""
+"Enter the replace URL for Add to Cart in shop page. If it is empty then Add "
+"to Cart text will be replaced only. Button functionality will remain same."
+msgstr ""
+"Entrez l'URL de remplacement pour ajouter au panier dans la page de magasin. "
+"Si elle est vide, puis Ajouter au panier, le texte sera remplacé uniquement. "
+"La fonctionnalité des boutons restera identique."
+
+#: includes/class-eh-price-discount-settings.php:439
+msgid ""
+"Select the User Role for which you want to hide regular price of all the "
+"simple products which have sale prices."
+msgstr ""
+"Sélectionnez le rôle d'utilisateur pour lequel vous souhaitez cacher le prix "
+"régulier de tous les produits simples qui ont des prix de vente."
+
+#: includes/class-eh-price-discount-settings.php:448
+msgid "Select the User Role for which you want to hide product price."
+msgstr ""
+"Sélectionnez le rôle utilisateur pour lequel vous souhaitez masquer le prix "
+"du produit."
+
+#: includes/class-eh-price-discount-settings.php:457
+msgid ""
+"Enter the text you want to show when price is removed. Leave it empty if you "
+"don't want to show any placeholder text"
+msgstr ""
+"Entrez le texte que vous souhaitez afficher lorsque le prix est supprimé. "
+"Laissez-le vide si vous ne souhaitez pas afficher le texte d'un espace "
+"réservé"
+
+#: includes/class-eh-price-discount-settings.php:463
+msgid "Individual Product Adjustment"
+msgstr "Réglage individuel des produits"
+
+#: includes/class-eh-price-discount-settings.php:465
+msgid ""
+"Select the User Role for which you want to have individual product level "
+"price adjustment in edit product page."
+msgstr ""
+"Sélectionnez le rôle d'utilisateur pour lequel vous souhaitez avoir un "
+"ajustement du prix du niveau de produit individuel dans la page de "
+"modification du produit."
+
+#: includes/class-eh-price-discount-settings.php:476
+msgid "Price Adjustment: (Discount/Markup)"
+msgstr "Réglage des prix: (Réduction / Marquage)"
+
+#: includes/class-eh-price-discount-settings.php:524
+msgid "Check to hide product regular price"
+msgstr "Vérifiez pour cacher le prix régulier du produit"
+
+#: includes/class-eh-price-discount-settings.php:594
+msgid "Category Name Background Color"
+msgstr "Nom de la catégorie - Couleur de fond"
+
+#: includes/html-eh-price-adjustment-manage-user-role.php:7
+msgid "Add Custom User Role:"
+msgstr "Ajouter un rôle d'utilisateur personnalisé:"
+
+#: includes/html-eh-price-adjustment-manage-user-role.php:13
+#: includes/html-eh-price-adjustment-table.php:15
+#: includes/html-eh-price-suffix.php:8
+#: includes/html-eh-product-price-adjustment.php:97
+#: includes/html-eh-product-role-based-price.php:14
+#: includes/html-eh-tax-options.php:11
+msgid "User Role"
+msgstr "Rôle d'utilisateur"
+
+#: includes/html-eh-price-adjustment-manage-user-role.php:18
+msgid "Enter the name of the user role you want to create"
+msgstr "Entrez le nom du rôle utilisateur que vous souhaitez créer"
+
+#: includes/html-eh-price-adjustment-manage-user-role.php:25
+msgid "Remove User Role:"
+msgstr "Supprimer le rôle de l'utilisateur:"
+
+#: includes/html-eh-price-adjustment-manage-user-role.php:42
+msgid "Select the user role you want to delete."
+msgstr "Sélectionnez le rôle utilisateur que vous souhaitez supprimer."
+
+#: includes/html-eh-price-adjustment-table.php:5
+msgid ""
+"Drag and drop User Roles to set priority. If a single User has multiple user "
+"roles assigned, the user role with the highest priority will be chosen. To "
+"give discount enter a negative value in the price adjustment field. For "
+"markup enter a positive value in the price adjustment field. If no category "
+"is selected then adjustment will be applied to all the simple products."
+msgstr ""
+"Faites glisser et déposez les rôles utilisateur pour définir la priorité. Si "
+"un seul utilisateur a plusieurs rôles d'utilisateur attribués, le rôle "
+"d'utilisateur avec la plus haute priorité sera choisi. Pour donner une "
+"réduction, entrez une valeur négative dans le champ d'ajustement des prix. "
+"Pour le marquage, entrez une valeur positive dans le champ de réglage du "
+"prix. Si aucune catégorie n'est sélectionnée, le réglage sera appliqué à "
+"tous les produits simples."
+
+#: includes/html-eh-price-adjustment-table.php:9
+msgid ""
+"Select a category to apply price adjustment to the products which belong to "
+"that category. If no particular category is selected, the price adjustment "
+"will be applied to all the products."
+msgstr ""
+"Sélectionnez une catégorie pour appliquer l'ajustement de prix aux produits "
+"qui appartiennent à cette catégorie. Si aucune catégorie particulière n'est "
+"sélectionnée, l'ajustement de prix sera appliqué à tous les produits."
+
+#: includes/html-eh-price-adjustment-table.php:16
+msgid "Categories"
+msgstr "Catégories"
+
+#: includes/html-eh-price-adjustment-table.php:17
+#: includes/html-eh-product-price-adjustment.php:98
+#, php-format
+msgid "Price Adjustment (%s)"
+msgstr "Ajustement du prix (%s)"
+
+#: includes/html-eh-price-adjustment-table.php:18
+#: includes/html-eh-product-price-adjustment.php:99
+msgid "Price Adjustment (%)"
+msgstr "Ajustement du prix (%)"
+
+#: includes/html-eh-price-adjustment-table.php:19
+#: includes/html-eh-product-price-adjustment.php:100
+msgid "Use Role Based Price"
+msgstr "Utilisez le prix basé sur le rôle"
+
+#: includes/html-eh-price-suffix.php:4
+msgid "Price Suffix Table"
+msgstr "Table Suffixe de prix"
+
+#: includes/html-eh-product-price-adjustment.php:24
+msgid "Check to remove Add to Cart."
+msgstr "Vérifiez pour supprimer Ajouter au panier."
+
+#: includes/html-eh-product-price-adjustment.php:34
+msgid "Check to hide price."
+msgstr "Vérifiez pour cacher le prix."
+
+#: includes/html-eh-product-price-adjustment.php:39
+msgid " Remove Add to Cart"
+msgstr "Supprimer Ajouter au panier"
+
+#: includes/html-eh-product-price-adjustment.php:53
+msgid " Select the user role for which you want to remove Add to Cart."
+msgstr ""
+"Sélectionnez le rôle d'utilisateur pour lequel vous souhaitez supprimer "
+"Ajouter au panier."
+
+#: includes/html-eh-product-price-adjustment.php:58
+msgid " Hide Price"
+msgstr "Cacher le prix"
+
+#: includes/html-eh-product-price-adjustment.php:72
+msgid " Select the user role for which you want to hide price."
+msgstr ""
+"Sélectionnez le rôle d'utilisateur pour lequel vous souhaitez cacher le prix."
+
+#: includes/html-eh-product-price-adjustment.php:83
+msgid " Enforce product price adjustment"
+msgstr "Appliquer l'ajustement du prix du produit"
+
+#: includes/html-eh-product-price-adjustment.php:86
+msgid " Check to enforce indvidual price adjustment"
+msgstr "Contrôler l'ajustement indu de prix"
+
+#: includes/html-eh-product-price-adjustment.php:92
+msgid ""
+" Drag and drop user roles to set priority. If a single user has multiple "
+"user roles assigned, the user role with the highest priority will be chosen. "
+"To give discount enter a negative value in the price adjustment field. For "
+"markup enter a positive value in the price adjustment field."
+msgstr ""
+"Faites glisser et déposez les rôles utilisateur pour définir la priorité. Si "
+"un seul utilisateur a plusieurs rôles d'utilisateur attribués, le rôle "
+"d'utilisateur avec la plus haute priorité sera choisi. Pour donner une "
+"réduction, entrez une valeur négative dans le champ d'ajustement des prix. "
+"Pour le marquage, entrez une valeur positive dans le champ de réglage du "
+"prix."
+
+#: includes/html-eh-product-role-based-price.php:6
+msgid "Role Based Price"
+msgstr "Prix ​​basé sur le rôle"
+
+#: includes/html-eh-product-role-based-price.php:15
+#, php-format
+msgid "Price (%s)"
+msgstr "Prix (%s)"
+
+#: includes/html-eh-tax-options.php:4
+msgid "Tax Options Table"
+msgstr "Tableau des options fiscales"
+
+#: includes/html-eh-tax-options.php:5
+msgid "This table handles only tax display option. To modify tax rate go to "
+msgstr ""
+"Cette table ne gère que l'option d'affichage des taxes. Pour modifier le "
+"taux d'imposition, allez à"
+
+#: includes/html-eh-tax-options.php:7
+msgid "of Woocommerce."
+msgstr "de Woocommerce."
+
+#: includes/html-eh-tax-options.php:13
+msgid "Tax Type"
+msgstr "Type de taxe"
+
+#: includes/html-eh-tax-options.php:74
+msgid "Default"
+msgstr "Défaut"
+
+#: pricing-discounts-by-user-role-woocommerce.php:35
+msgid ""
+"Is everything fine? You already have the Premium version installed in your "
+"website. For any issues, kindly raise a ticket via <a target='_blank' "
+"href='//support.xadapter.com/'>support.xadapter.com</a>"
+msgstr ""
+"Est-ce que tout va bien? Vous avez déjà installé la version Premium sur "
+"votre site. Pour tout problème, veuillez générer un ticket via <a "
+"target='_blank' href='//support.xadapter.com/'>support.xadapter.com</a>"
+
+#: pricing-discounts-by-user-role-woocommerce.php:61
+msgid "Settings"
+msgstr "Réglages"
+
+#: pricing-discounts-by-user-role-woocommerce.php:62
+msgid "Documentation"
+msgstr "Consulter la documentation"
+
+#: pricing-discounts-by-user-role-woocommerce.php:63
+msgid "Premium Upgrade"
+msgstr "Mise à niveau Prémium"
+
+#: pricing-discounts-by-user-role-woocommerce.php:64
+msgid "Support"
+msgstr "Support"
+
+#: pricing-discounts-by-user-role-woocommerce.php:77
+msgid "Pricing & Discount"
+msgstr "Prix ​​et réduction"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Catalog Mode, Wholesale & Role Based Pricing (BASIC)"
+msgstr ""
+"Mode de catalogue WooCommerce, prix en gros et basé sur les rôles (BASIC)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.xadapter.com/product/prices-by-user-role-for-woocommerce/"
+msgstr "https://www.xadapter.com/product/prices-by-user-role-for-woocommerce/"
+
+#. Description of the plugin/theme
+msgid ""
+"One click Catalog mode. Hide add to cart for guest, specific user. Hide "
+"price for guest, specific user for simple products. Create user role "
+"specific product price. Enforce markup/discount on price for selected user "
+"roles."
+msgstr ""
+"Un clic sur le mode Catalogue. Masquer ajouter au panier pour invité, "
+"utilisateur spécifique. Cacher le prix pour les clients, un utilisateur "
+"spécifique pour les produits simples. Créez un prix de produit spécifique au "
+"rôle utilisateur. Exécuter le balisage / réduction sur le prix pour les "
+"rôles utilisateur sélectionnés."
+
+#. Author of the plugin/theme
+msgid "XAdapter"
+msgstr "XAdapter"
+
+#. Author URI of the plugin/theme
+msgid "https://www.xadapter.com"
+msgstr "https://www.xadapter.com"
